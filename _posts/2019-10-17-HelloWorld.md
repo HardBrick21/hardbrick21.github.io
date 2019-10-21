@@ -1,8 +1,10 @@
 ---
-title:  "Hello world!"
-date:   2019-10-17 22:26:03 +0800
+title: Hello world!
+date: 2019-10-17 22:26:03 +0800
 categories: [Blogging]
 tags: [Jekyll]
+seo:
+  date_modified: 2019-10-18 22:33:37 +0800
 ---
 
 # Hello World
