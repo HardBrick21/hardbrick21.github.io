@@ -145,5 +145,3 @@ fi;
 ## Reverse Footnote
 
 [^footnote]: The footnote source.
-
-
