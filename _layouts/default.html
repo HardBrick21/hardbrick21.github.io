@@ -42,11 +42,32 @@ layout: compress
   </body>
 
   <!-- waifu-tips.js 依赖 JQuery 库 -->
-  <script src="assets/live2d/jquery.min.js?v=3.3.1"></script>
+  <!-- <script src=getRootPath() + "assets/live2d/jquery.min.js?v=3.3.1"></script> -->
 
   <!-- 实现拖动效果，需引入 JQuery UI -->
-  <script src="assets/live2d/jquery-ui.min.js?v=1.12.1"></script>
+  <!-- <script src=getRootPath()+ "assets/live2d/jquery-ui.min.js?v=1.12.1"></script> -->
 
   <!-- 使用 aotuload.js 引入看板娘 -->
-  <script src="assets/live2d/autoload.js?v=1.4.2"></script>
+  <!-- <script src=getRootPath() +"assets/live2d/autoload.js?v=1.4.2"></script> -->
+
+  <script type="text/javascript">
+    $.ajax({url: getRootPath()+'assets/live2d/jquery.min.js?v=3.3.1',dataType:"script", cache: true, async: false});
+    $.ajax({url: getRootPath()+'assets/live2d/jquery-ui.min.js?v=1.12.1',dataType:"script", cache: true, async: false});
+    $.ajax({url: getRootPath()+'assets/live2d/autoload.js?v=1.4.2',dataType:"script", cache: true, async: false});
+
+
+
+    function getRootPath() {
+
+     var curWwwPath = window.document.location.href;
+
+     var pathName = window.document.location.pathname;
+     var pos = curWwwPath.indexOf(pathName);
+
+     var localhostPaht = curWwwPath.substring(0, pos);
+
+     var projectName = pathName.substring(0, pathName.substr(1).indexOf('/') + 1);
+     return localhostPaht;
+    }
+  </script>
 </html>
