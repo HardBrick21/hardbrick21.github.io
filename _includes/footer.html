@@ -3,8 +3,9 @@
   © 2017-2019 Cotes Chung
   MIT License
 -->
+
 <footer class="d-flex w-100 justify-content-center">
-  {% include live2d-autoload.html %}
+
   <div class="d-flex justify-content-between  align-items-center">
     <div class="copyright">
       {% assign first = site.first_run | plus: 0 %}
@@ -19,7 +20,7 @@
       <p class="mb-0">
         <!-- 不蒜子计数 -->
         <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-        <span id="busuanzi_container_site_pv" style='display:none'>| 总访问量 <span id="busuanzi_value_site_pv"></span> 次 </span>
+        <span id="busuanzi_container_site_pv" style='display:none'>| 总访问量 <span id="busuanzi_value_site_pv"></span> 次 </span><br>
         <span id="busuanzi_container_site_uv" style='display:none'>| 总访客数 <span id="busuanzi_value_site_uv"></span> 人 </span>
         <!-- 不蒜子计数 -->
 
@@ -27,6 +28,7 @@
     </div>
   </div> <!-- div.d-flex -->
 </footer>
+
 <!-- 不蒜子计数初始值纠正 -->
 <script>
 $(document).ready(function() {
