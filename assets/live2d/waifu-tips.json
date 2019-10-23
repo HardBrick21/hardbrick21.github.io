@@ -1,6 +1,6 @@
 {
 	"mouseover": [{
-		"selector": "#waifu #live2d",
+		"selector": "#waifu #live2d" "#myLive2d",
 		"text": ["干嘛呢你，快把手拿开～～", "鼠…鼠标放错地方了！", "你要干嘛呀？", "喵喵喵？", "怕怕(ノ≧∇≦)ノ", "非礼呀！救命！", "这样的话，只能使用武力了！", "我要生气了哦", "不要动手动脚的！", "真…真的是不知羞耻！", "Hentai！"]
 	}, {
 		"selector": "#waifu-tool .fa-comment",
@@ -42,10 +42,10 @@
 		"selector": ".menu-item-friends",
 		"text": ["这是我的朋友们哦ヾ(◍°∇°◍)ﾉﾞ", "要去大佬们的家看看吗？", "要去拜访一下我的朋友们吗？"]
 	}, {
-		"selector": ".menu-item-search",
+		"selector": ".menu-item-search" "#search-wrap",
 		"text": ["找不到想看的内容？搜索看看吧！", "在找什么东西呢，需要帮忙吗？"]
 	}, {
-		"selector": ".site-author",
+		"selector": ".site-author" "#profile",
 		"text": ["我家主人好看吗？", "这是我家主人(*´∇｀*)"]
 	}, {
 		"selector": ".site-state",
@@ -72,7 +72,7 @@
 		"selector": ".container a[href^='http'], .nav-link .nav-text",
 		"text": ["要去看看 <span style=\"color:#0099cc;\">{text}</span> 么？", "去 <span style=\"color:#0099cc;\">{text}</span> 逛逛吧。", "到 <span style=\"color:#0099cc;\">{text}</span> 看看吧。"]
 	}, {
-		"selector": "a[href^='mailto']",
+		"selector": "a[href^='mailto']" ".fa-envelope",
 		"text": ["邮件我会及时回复的！", "点击就可以发送邮件啦～"]
 	}, {
 		"selector": "a[href^='/tags/']",
@@ -81,7 +81,7 @@
 		"selector": "a[href^='/categories/']",
 		"text": ["要去看看 <span style=\"color:#0099cc;\">{text}</span> 分类么？", "点它可以查看此分类下的所有文章哟！"]
 	}, {
-		"selector": ".post-title-link",
+		"selector": ".post-preview",
 		"text": ["要看看 <span style=\"color:#0099cc;\">{text}</span> 这篇文章吗？"]
 	}, {
 		"selector": "a[rel='contents']",
@@ -90,83 +90,11 @@
 		"selector": "a[itemprop='discussionUrl']",
 		"text": ["要去看看评论吗？"]
 	}, {
-		"selector": ".back-to-top",
+		"selector": "#back-to-top",
 		"text": ["点它就可以回到顶部啦！", "又回到最初的起点～", "要回到开始的地方么？"]
-	}, {
-		"selector": "#rewardButton",
-		"text": ["我是不是棒棒哒～快给我点赞吧！", "要打赏我嘛？好期待啊～", "主人最近在吃土呢，很辛苦的样子，给他一些钱钱吧～"]
-	}, {
-		"selector": "#wechat",
-		"text": ["这是我的微信二维码～"]
-	}, {
-		"selector": "#alipay",
-		"text": ["这是我的支付宝哦！"]
-	}, {
-		"selector": "#bitcoin",
-		"text": ["这是我的比特币账号！"]
-	}, {
-		"selector": "#needsharebutton-postbottom .btn",
-		"text": ["好东西要让更多人知道才行哦。", "觉得文章有帮助的话，可以分享给更多需要的朋友呢。"]
-	}, {
-		"selector": ".need-share-button_weibo",
-		"text": ["微博？来分享一波喵！"]
-	}, {
-		"selector": ".need-share-button_wechat",
-		"text": ["分享到微信吧！"]
-	}, {
-		"selector": ".need-share-button_douban",
-		"text": ["分享到豆瓣好像也不错！"]
-	}, {
-		"selector": ".need-share-button_qqzone",
-		"text": ["QQ空间，一键转发，耶～"]
-	}, {
-		"selector": ".need-share-button_twitter",
-		"text": ["Twitter？好像是不存在的东西？"]
-	}, {
-		"selector": ".need-share-button_facebook",
-		"text": ["emmm…FB好像也是不存在的东西？"]
-	}, {
-		"selector": ".post-nav-next",
-		"text": ["来看看下一篇文章吧。", "点它可以看下一篇文章哦！", "要翻到下一篇文章吗？"]
-	}, {
-		"selector": ".post-nav-prev",
-		"text": ["来看看上一篇文章吧。", "点它可以看上一篇文章哦！", "要翻到上一篇文章吗？"]
-	}, {
-		"selector": ".extend.next",
-		"text": ["去下一页看看吧。", "点它可以前进哦！", "要翻到下一页吗？"]
-	}, {
-		"selector": ".extend.prev",
-		"text": ["去上一页看看吧。", "点它可以后退哦！", "要翻到上一页吗？"]
-	}, {
-		"selector": "input.vnick",
-		"text": ["该怎么称呼你呢？", "留下你的尊姓大名！"]
-	}, {
-		"selector": ".vmail",
-		"text": ["留下你的邮箱，不然就是无头像人士了！", "记得设置好 Gravatar 头像哦！", "为了方便通知你最新消息，一定要留下邮箱！"]
-	}, {
-		"selector": ".vlink",
-		"text": ["快快告诉我你的家在哪里，好让我去参观参观！"]
-	}, {
-		"selector": ".veditor",
-		"text": ["想要去评论些什么吗？", "要说点什么吗？", "觉得博客不错？快来留言和主人交流吧！"]
-	}, {
-		"selector": ".vcontrol a",
-		"text": ["你会不会熟练使用Markdown呀？", "使用Markdown让评论更美观吧～"]
-	}, {
-		"selector": ".vemoji-btn",
-		"text": ["要插入一个萌萌哒的表情吗？", "要来一发表情吗？"]
-	}, {
-		"selector": ".vpreview-btn",
-		"text": ["要预览一下你的发言吗？", "快看看你的评论有多少负熵！"]
-	}, {
-		"selector": ".vsubmit",
-		"text": ["评论没有审核，要对自己的发言负责哦～", "要提交了吗，请耐心等待回复哦～"]
-	}, {
-		"selector": ".vcontent",
-		"text": ["哇，快看看这个精彩评论！", "如果有疑问，请尽快留言哦～"]
 	}],
 	"click": [{
-		"selector": "#waifu #live2d",
+		"selector": "#waifu #live2d" "#myLive2d",
 		"text": ["是…是不小心碰到了吧…", "萝莉控是什么呀？", "你看到我的小熊了吗？", "再摸的话我可要报警了！⌇●﹏●⌇", "110吗，这里有个变态一直在摸我(ó﹏ò｡)", "不要摸我了，我会告诉老婆来打你的！", "干嘛动我呀！小心我咬你！", "别摸我，有什么好摸的！"]
 	}, {
 		"selector": ".veditor",
