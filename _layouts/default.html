@@ -51,9 +51,23 @@ layout: compress
   <!-- <script src=getRootPath() +"assets/live2d/autoload.js?v=1.4.2"></script> -->
 
   <script type="text/javascript">
-    $.ajax({url: 'https://cdn.jsdelivr.net/gh/HardBrick21/hardbrick21.github.io@9e0c32adffc2e35de1be4ce6112267d509e957a6/assets/live2d/jquery.min.js',dataType:"script", cache: true, async: false});
-    $.ajax({url: 'https://cdn.jsdelivr.net/gh/HardBrick21/hardbrick21.github.io@9e0c32adffc2e35de1be4ce6112267d509e957a6/assets/live2d/jquery-ui.min.js',dataType:"script", cache: true, async: false});
-    $.ajax({url: 'https://cdn.jsdelivr.net/gh/HardBrick21/hardbrick21.github.io@9e0c32adffc2e35de1be4ce6112267d509e957a6/assets/live2d/autoload.js',dataType:"script", cache: true, async: false});
+    $.ajax({url: getRootPath()+'assets/live2d/jquery.min.js?v=3.3.1',dataType:"script", cache: true, async: false});
+    $.ajax({url: getRootPath()+'assets/live2d/jquery-ui.min.js?v=1.12.1',dataType:"script", cache: true, async: false});
+    $.ajax({url: getRootPath()+'assets/live2d/autoload.js?v=1.4.2',dataType:"script", cache: true, async: false});
 
+
+
+    function getRootPath() {
+
+     var curWwwPath = window.document.location.href;
+
+     var pathName = window.document.location.pathname;
+     var pos = curWwwPath.indexOf(pathName);
+
+     var localhostPaht = curWwwPath.substring(0, pos);
+
+     var projectName = pathName.substring(0, pathName.substr(1).indexOf('/') + 1);
+     return localhostPaht;
+    }
   </script>
 </html>
