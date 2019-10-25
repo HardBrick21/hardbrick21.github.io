@@ -35,4 +35,7 @@ tags: [面试总结]
 ### 10. Tomcat 中的 NIO
 
 
+### 11. Collection 和 Collections 的区别
+
+
 ### 今日思考 ：手写数据库连接池怎么写
