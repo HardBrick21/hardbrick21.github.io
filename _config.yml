@@ -13,8 +13,8 @@ description: '一支彩笔的博客.'
 # Replace with your domain, e.g. "https://username.github.io"
 url: 'https://hardbrick21.github.io/'
 
-plugins:
-  - jekyll-sitemap
+# plugins:
+#   - jekyll-sitemap
 
 author: 侯立玄                          # change to your full name
 
