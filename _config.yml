@@ -13,6 +13,9 @@ description: '一支彩笔的博客.'
 # Replace with your domain, e.g. "https://username.github.io"
 url: 'https://hardbrick21.github.io/'
 
+plugins:
+  - jekyll-sitemap
+
 author: 侯立玄                          # change to your full name
 
 logo: /assets/img/sample/profile.jpg    # Support network resources.
@@ -32,7 +35,7 @@ social:
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification: google_meta_tag_verification # change to your verification string
+google_site_verification: GAobdjGE0zhGAAxxsBWJhrIFVa5Hvm380vJKfRXREmU # change to your verification string
 
 #--------------------------
 
@@ -47,7 +50,7 @@ google_analytics:
   pv: false
 
 disqus:
-  shortname: 'disqus'   # Change to your Disqus shortname.
+  shortname: 'hardbrick21'   # Change to your Disqus shortname.
   comments: true        # boolean type, the gobal switch of posts' comments.
 
 # The year your website was first run.
