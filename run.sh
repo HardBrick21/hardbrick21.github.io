@@ -95,7 +95,7 @@ done
 init
 
 cd .container
-python _scripts/py/init_all.py
+python3 _scripts/py/init_all.py
 
 echo "\$ $cmd"
 eval $cmd
